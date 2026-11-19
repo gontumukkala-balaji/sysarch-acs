@@ -153,7 +153,7 @@
 
 #define DRTM_MEM_PROT_FULL_RANGE_SIZE_TYPE \
     DRTM_MEM_PROT_ENCODE(DRTM_CACHEABILITY_NOT_CACHEABLE, \
-                         DRTM_REGION_TYPE_NON_VOLATILE, \
+                         DRTM_REGION_TYPE_NORMAL, \
                          DRTM_MEM_PROT_MAX_4KB_PAGES)
 
 #define DRTM_EVTYPE_ARM_PCR_SCHEMA                0x9001
